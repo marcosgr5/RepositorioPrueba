@@ -1,0 +1,33 @@
+<icegrid>
+    <application name="Spotifice">
+        
+        <server-template id="MediaServerTemplate">
+            <parameter name="id"/>
+            <server id="MediaServer${id}" activation="on-demand" exe="./media_server.py">
+                <adapter name="MediaServerAdapter" endpoints="default">
+                    <object identity="mediaServer${id}" type="::Spotifice::MediaServer"/>
+                </adapter>
+                <property name="MediaServer.Content" value="media"/>
+                <property name="MediaServer.Playlists" value="playlists"/>
+            </server>
+        </server-template>
+
+        <server-template id="MediaRenderTemplate">
+            <parameter name="id"/>
+            <server id="MediaRender${id}" activation="on-demand" exe="./media_render.py">
+                <adapter name="MediaRenderAdapter" endpoints="default">
+                    <object identity="mediaRender${id}" type="::Spotifice::MediaRender"/>
+                </adapter>
+            </server>
+        </server-template>
+
+        <node name="node1">
+            <server-instance template="MediaServerTemplate" id="1"/>
+        </node>
+
+        <node name="node2">
+            <server-instance template="MediaRenderTemplate" id="1"/>
+        </node>
+
+    </application>
+</icegrid>

@@ -1,4 +1,4 @@
-# Configuration file (12/16/25 22:47:05.906)
+# Configuration file (12/17/25 16:43:52.817)
 
 # Server configuration
 Ice.Admin.ServerId=MediaServer1
@@ -10,6 +10,7 @@ MediaServerAdapter.AdapterId=MediaServer1.MediaServerAdapter
 # Server descriptor properties
 MediaServer.Content=media
 MediaServer.Playlists=playlists
+MediaServer.Identity=MediaServer1
 Ice.StdErr=db/node1/MediaServer1.err
 Ice.StdOut=db/node1/MediaServer1.out
 Ice.Default.Locator=Spotifice/Locator:tcp -h localhost -p 4061

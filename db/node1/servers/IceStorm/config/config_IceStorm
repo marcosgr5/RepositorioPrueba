@@ -1,0 +1,18 @@
+# Configuration file (12/17/25 16:43:52.817)
+
+# Object adapter IceStorm.TopicManager
+IceStorm.TopicManager.Endpoints=tcp -h 127.0.0.1 -p 9999
+IceStorm.TopicManager.AdapterId=IceStorm.IceStorm.IceStorm.TopicManager
+# Object adapter IceStorm.Publish
+IceStorm.Publish.Endpoints=tcp -h 127.0.0.1 -p 9998
+IceStorm.Publish.AdapterId=IceStorm.IceStorm.IceStorm.Publish
+# Object adapter IceStorm.Node
+IceStorm.Node.Endpoints=tcp -h 127.0.0.1
+IceStorm.Node.AdapterId=IceStorm.IceStorm.IceStorm.Node
+# Service descriptor properties
+IceStorm.LMDB.Path=db/icestorm
+IceStorm.InstanceName=SpotificeIceStorm
+Ice.PrintAdapterReady=1
+IceStorm.Transient.TopicManager.AdapterId=IceStorm.TopicManager
+IceStorm.Transient.Publish.AdapterId=IceStorm.Publish
+Ice.Default.Locator=Spotifice/Locator:tcp -h localhost -p 4061

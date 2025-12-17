@@ -22,7 +22,7 @@ module Spotifice {
     exception PlayerError extends Error{};
     exception StreamError extends Error{};
     exception TrackError extends Error{};
-    exception PlaylistError extends Error{};  // new in version 1
+    exception PlaylistError extends Error{};
 
     interface MusicLibrary {
         TrackInfoSeq get_all_tracks() throws IOError;
@@ -37,10 +37,7 @@ module Spotifice {
             throws IOError, StreamError;
     };
 
-    // new in version 1
     sequence<string> TrackIdSeq;
-
-    // new in version 1
     struct Playlist {
         string id;
         string name;
@@ -49,11 +46,8 @@ module Spotifice {
         long created_at;
         TrackIdSeq track_ids;
     };
-
-    // new in version 1
     sequence<Playlist> PlaylistSeq;
 
-    // new in version 1
     interface PlaylistManager {
         idempotent PlaylistSeq get_all_playlists();
         idempotent Playlist get_playlist(string playlist_id) throws PlaylistError;
@@ -61,14 +55,8 @@ module Spotifice {
 
     interface MediaServer extends MusicLibrary, StreamManager, PlaylistManager {};
 
-    // new in version 1
-    enum PlaybackState {
-        STOPPED,
-        PLAYING,
-        PAUSED
-    };
+    enum PlaybackState { STOPPED, PLAYING, PAUSED };
 
-    // new in version 1
     class PlaybackStatus {
         PlaybackState state;
         string current_track_id;
@@ -84,8 +72,6 @@ module Spotifice {
         idempotent void load_track(string track_id)
             throws BadReference, IOError, PlayerError, StreamError, TrackError;
         idempotent TrackInfo get_current_track();
-
-        // new in version 1
         idempotent void load_playlist(string playlist_id)
             throws PlaylistError, TrackError, PlayerError;
     };
@@ -93,8 +79,6 @@ module Spotifice {
     interface PlaybackController {
         void play() throws BadReference, IOError, PlayerError, StreamError, TrackError;
         idempotent void stop() throws PlayerError;
-
-        // new in version 1
         void pause() throws PlayerError;
         idempotent PlaybackStatus get_status();
         void next() throws PlaylistError;
@@ -103,4 +87,9 @@ module Spotifice {
     };
 
     interface MediaRender extends RenderConnectivity, ContentManager, PlaybackController {};
+
+    // --- HITO 3: Monitor de eventos ---
+    interface Monitor {
+        void report(PlaybackStatus status, TrackInfo currentTrack);
+    };
 };

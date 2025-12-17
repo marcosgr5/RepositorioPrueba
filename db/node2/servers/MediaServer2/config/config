@@ -1,4 +1,4 @@
-# Configuration file (12/17/25 16:43:52.817)
+# Configuration file (12/17/25 17:32:28.741)
 
 # Server configuration
 Ice.Admin.ServerId=MediaServer2
@@ -13,4 +13,4 @@ MediaServer.Playlists=playlists
 MediaServer.Identity=MediaServer2
 Ice.StdErr=db/node2/MediaServer2.err
 Ice.StdOut=db/node2/MediaServer2.out
-Ice.Default.Locator=Spotifice/Locator:tcp -h localhost -p 4061
+Ice.Default.Locator=Spotifice/Locator:tcp -h 192.168.1.206 -p 4061

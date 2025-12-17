@@ -1,0 +1,17 @@
+WARNING:MediaRender:Could not connect to IceStorm: Ice.ConnectionRefusedException:
+Connection refused
+INFO:MediaRender:MediaRender 'MediaRender2' ready: MediaRender2 -t -e 1.1 @ MediaRender2.MediaRenderAdapter
+INFO:MediaRender:Bound to MediaServer 'MediaServer2'
+INFO:MediaRender:Track loaded: Portal2-01-Science_is_Fun
+INFO:GstPlayer:Playing...
+INFO:MediaRender:Playing: Portal2-01-Science_is_Fun
+INFO:MediaRender:Reproducción pausada.
+INFO:GstPlayer:Stopped.
+INFO:GstPlayer:Playing...
+INFO:MediaRender:Playing: Portal2-02-Concentration_Enhancing_Menu_Initialiser
+INFO:MediaRender:Track loaded: Portal2-02-Concentration_Enhancing_Menu_Initialiser
+INFO:GstPlayer:Stopped.
+INFO:GstPlayer:Playing...
+INFO:MediaRender:Playing: Portal2-01-Science_is_Fun
+INFO:MediaRender:Track loaded: Portal2-01-Science_is_Fun
+INFO:GstPlayer:Stopped.

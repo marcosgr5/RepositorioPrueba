@@ -1,0 +1,10 @@
+INFO:MediaServer:Load media:  64 tracks
+INFO:MediaServer:Cargando playlists desde playlists...
+INFO:MediaServer:Load playlists: 3 playlists cargadas.
+INFO:MediaServer:MediaServer 'MediaServer2' ready: MediaServer2 -t -e 1.1 @ MediaServer2.MediaServerAdapter
+INFO:MediaServer:Open stream for track 'Portal2-01-Science_is_Fun.mp3' on render 'MediaRender2'
+INFO:MediaServer:Closed stream for render 'MediaRender2'
+INFO:MediaServer:Open stream for track 'Portal2-02-Concentration_Enhancing_Menu_Initialiser.mp3' on render 'MediaRender2'
+INFO:MediaServer:Closed stream for render 'MediaRender2'
+INFO:MediaServer:Open stream for track 'Portal2-01-Science_is_Fun.mp3' on render 'MediaRender2'
+INFO:MediaServer:Closed stream for render 'MediaRender2'

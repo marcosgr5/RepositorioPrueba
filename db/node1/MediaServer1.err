@@ -1,13 +1,17 @@
 INFO:MediaServer:Load media:  64 tracks
 INFO:MediaServer:Cargando playlists desde playlists...
 INFO:MediaServer:Load playlists: 3 playlists cargadas.
-INFO:MediaServer:MediaServer: mediaServer1 -t -e 1.1 @ MediaServer1.MediaServerAdapter
-INFO:MediaServer:Devolviendo todas las playlists.
-INFO:MediaServer:Buscando playlist: Portal2-vol1
-INFO:MediaServer:Open stream for track 'Portal2-01-Science_is_Fun.mp3' on render 'mediaRender1'
-INFO:MediaServer:Closed stream for render 'mediaRender1'
-INFO:MediaServer:Open stream for track 'Portal2-02-Concentration_Enhancing_Menu_Initialiser.mp3' on render 'mediaRender1'
-INFO:MediaServer:Closed stream for render 'mediaRender1'
-INFO:MediaServer:Open stream for track 'Portal2-01-Science_is_Fun.mp3' on render 'mediaRender1'
-INFO:MediaServer:Closed stream for render 'mediaRender1'
-INFO:MediaServer:Shutdown
+INFO:MediaServer:MediaServer 'MediaServer1' ready: MediaServer1 -t -e 1.1 @ MediaServer1.MediaServerAdapter
+INFO:MediaServer:Open stream for track 'Portal2-01-Science_is_Fun.mp3' on render 'MediaRender1'
+INFO:MediaServer:Closed stream for render 'MediaRender1'
+INFO:MediaServer:Open stream for track 'Portal2-01-Science_is_Fun.mp3' on render 'MediaRender1'
+INFO:MediaServer:Open stream for track 'Portal2-01-Science_is_Fun.mp3' on render 'MediaRender1'
+INFO:MediaServer:Closed stream for render 'MediaRender1'
+INFO:MediaServer:Open stream for track 'Portal2-02-Concentration_Enhancing_Menu_Initialiser.mp3' on render 'MediaRender1'
+INFO:MediaServer:Closed stream for render 'MediaRender1'
+INFO:MediaServer:Open stream for track 'Portal2-03-999999.mp3' on render 'MediaRender1'
+INFO:MediaServer:Closed stream for render 'MediaRender1'
+INFO:MediaServer:Open stream for track 'Portal2-02-Concentration_Enhancing_Menu_Initialiser.mp3' on render 'MediaRender1'
+INFO:MediaServer:Closed stream for render 'MediaRender1'
+INFO:MediaServer:Open stream for track 'Portal2-01-Science_is_Fun.mp3' on render 'MediaRender1'
+INFO:MediaServer:Closed stream for render 'MediaRender1'

@@ -1,0 +1,38 @@
+INFO:MediaRender:MediaRender 'MediaRender1' ready: MediaRender1 -t -e 1.1 @ MediaRender1.MediaRenderAdapter
+INFO:MediaRender:Bound to MediaServer 'MediaServer1'
+INFO:MediaRender:Track loaded: Portal2-01-Science_is_Fun
+INFO:GstPlayer:Playing...
+INFO:MediaRender:Playing: Portal2-01-Science_is_Fun
+INFO:MediaRender:Bound to MediaServer 'MediaServer1'
+INFO:GstPlayer:Stopped.
+INFO:MediaRender:Track loaded: Portal2-01-Science_is_Fun
+INFO:GstPlayer:Playing...
+INFO:MediaRender:Playing: Portal2-01-Science_is_Fun
+INFO:MediaRender:Reproducción pausada.
+WARNING:MediaRender:No se puede pausar, estado actual: PAUSED
+INFO:MediaRender:Playing: Portal2-01-Science_is_Fun
+INFO:GstPlayer:Playing...
+INFO:GstPlayer:Stopped.
+INFO:GstPlayer:Playing...
+INFO:MediaRender:Playing: Portal2-02-Concentration_Enhancing_Menu_Initialiser
+INFO:MediaRender:Track loaded: Portal2-02-Concentration_Enhancing_Menu_Initialiser
+INFO:GstPlayer:Stopped.
+INFO:GstPlayer:Playing...
+INFO:MediaRender:Playing: Portal2-03-999999
+INFO:MediaRender:Track loaded: Portal2-03-999999
+INFO:GstPlayer:Stopped.
+INFO:GstPlayer:Playing...
+INFO:MediaRender:Playing: Portal2-02-Concentration_Enhancing_Menu_Initialiser
+INFO:MediaRender:Track loaded: Portal2-02-Concentration_Enhancing_Menu_Initialiser
+INFO:GstPlayer:Stopped.
+INFO:GstPlayer:Playing...
+INFO:MediaRender:Playing: Portal2-01-Science_is_Fun
+INFO:MediaRender:Track loaded: Portal2-01-Science_is_Fun
+INFO:GstPlayer:Stopped.
+ERROR:MediaRender:Error getting chunk: exception ::Spotifice::StreamError
+{
+    reason = No open stream
+    item = MediaRender1
+}
+INFO:GstPlayer:Stream exhaused.
+INFO:GstPlayer:Shutdown complete.

@@ -1,4 +1,4 @@
-# Configuration file (12/16/25 22:47:05.906)
+# Configuration file (12/17/25 16:32:13.710)
 
 # Server configuration
 Ice.Admin.ServerId=MediaRender1
@@ -7,6 +7,8 @@ Ice.ProgramName=MediaRender1
 # Object adapter MediaRenderAdapter
 MediaRenderAdapter.Endpoints=default
 MediaRenderAdapter.AdapterId=MediaRender1.MediaRenderAdapter
-Ice.StdErr=db/node2/MediaRender1.err
-Ice.StdOut=db/node2/MediaRender1.out
+# Server descriptor properties
+MediaRender.Identity=MediaRender1
+Ice.StdErr=db/node1/MediaRender1.err
+Ice.StdOut=db/node1/MediaRender1.out
 Ice.Default.Locator=Spotifice/Locator:tcp -h localhost -p 4061

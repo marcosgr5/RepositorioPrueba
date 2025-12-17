@@ -1,3 +1,0 @@
--! 12/17/25 17:31:29.263 IceStorm-IceStorm: warning: found unknown properties for IceStorm service 'IceStorm':
-       IceStorm.Transient.Publish.AdapterId
-       IceStorm.Transient.TopicManager.AdapterId

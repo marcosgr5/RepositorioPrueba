@@ -1,4 +1,4 @@
-# Configuration file (12/17/25 16:43:52.817)
+# Configuration file (12/17/25 17:31:28.650)
 
 # Server configuration
 Ice.Admin.ServerId=IceStorm
@@ -8,4 +8,4 @@ IceBox.Service.IceStorm=IceStormService,37:createIceStorm --Ice.Config='/home/ma
 IceBox.LoadOrder=IceStorm
 Ice.StdErr=db/node1/IceStorm.err
 Ice.StdOut=db/node1/IceStorm.out
-Ice.Default.Locator=Spotifice/Locator:tcp -h localhost -p 4061
+Ice.Default.Locator=Spotifice/Locator:tcp -h 192.168.1.206 -p 4061

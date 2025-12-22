@@ -14,3 +14,14 @@ El objetivo de este sistema es demostrar las capacidades de una arquitectura dis
 * **Transparencia de Ubicación:** Los clientes no necesitan saber la IP/Puerto del servidor, solo el nombre del objeto.
 * **Activación bajo demanda:** Los servidores se inician automáticamente cuando un cliente realiza una petición.
 * **Gestión Centralizada:** Uso de descriptores XML para definir la topología de la red.
+
+## 🚀 Hitos y Ramas (Milestones)
+
+El desarrollo del proyecto está organizado en diferentes ramas (branches), donde cada una representa un hito o fase del desarrollo:
+
+| Rama | Descripción | Estado |
+| :--- | :--- | :--- |
+| `main` / `master` | Readme. | ✅ |
+| `Basic` | Implementación del hito 1. | 📦 |
+| `Mid` | Implementación del hito 2 e introducción de IceGrid, Registry y Nodos. | 📦 |
+| `Final` / `PC2` | Implementación del hito final 3. | 📦 |

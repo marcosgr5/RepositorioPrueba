@@ -25,3 +25,5 @@ El desarrollo del proyecto está organizado en diferentes ramas (branches), dond
 | `Basic` | Implementación del hito 1. | 📦 |
 | `Mid` | Implementación del hito 2 e introducción de IceGrid, Registry y Nodos. | 📦 |
 | `Final` / `PC2` | Implementación del hito final 3. | 📦 |
+
+** En cada rama hay un archivo que ejecuta autimaticamente el hito como por ejemplo en el hito 1 el archivo https://github.com/marcosgr5/IceGrid/blob/Basic/run.sh, en el hito 2 https://github.com/marcosgr5/IceGrid/blob/Mid/run_hito2.sh y por último en el hito 3 tendremos dos, uno para el cliente y otro para el servidor https://github.com/marcosgr5/IceGrid/blob/Final/run_master.sh, https://github.com/marcosgr5/IceGrid/blob/PC2/run_node2.sh
